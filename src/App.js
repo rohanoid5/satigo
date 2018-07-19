@@ -1,10 +1,19 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import GoogleMapReact from 'google-map-react';
 
 let slideIndex = 1;
 
 class App extends Component {
+  static defaultProps = {
+    center: {
+      lat: 59.95,
+      lng: 30.33
+    },
+    zoom: 11
+  };
+
   constructor(props) {
     super(props);
     this.state = {
@@ -116,10 +125,10 @@ class App extends Component {
         <section id="section_home">
           <div className="slideshow-container">
             <div className="mySlides xfade" style={this.state.sliderImageStyle[0]}>
-              <img className="slide_image" src="https://res.cloudinary.com/getignitor/image/upload/q_10/v1524468759/image_one-min_osfhrx.jpg"/>
+              <img className="slide_image" src="https://images.pexels.com/photos/460621/pexels-photo-460621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
             </div>
             <div className="mySlides xfade" style={this.state.sliderImageStyle[1]}>
-              <img className="slide_image" src="https://res.cloudinary.com/getignitor/image/upload/q_30/v1524468758/image_four-min_hitolw.jpg"/>
+              <img className="slide_image" src="https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
             </div>
             <div className="mySlides xfade" style={this.state.sliderImageStyle[2]}>
               <img className="slide_image" src="https://res.cloudinary.com/getignitor/image/upload/q_10/v1524468756/image_two-min_xgpk1w.jpg"/>
@@ -150,7 +159,9 @@ class App extends Component {
         <section className="section" style={{backgroundColor: '#414141'}}>
           <div className="container">
             <div className="available-jobs">
-              <span className="latest-job">Latest Jobs</span>
+              <a href="" className="btn btn-primary">
+                Latest Jobs
+              </a>
               <span className="latest-job-details">
                 Window server Engineer -Windows Server, Exchange, Citrix, Permanent
               </span>
@@ -1079,6 +1090,15 @@ class App extends Component {
                   </form>
                 </div>
                 <div className="col-sm-offset-2 col-sm-4">
+                  <div style={{ height: '280px', width: '100%', marginBottom: 16}}>
+                    <GoogleMapReact
+                      bootstrapURLKeys={{ key: 'AIzaSyC4R6AN7SmujjPUIGKdyao2Kqitzr1kiRg'}}
+                      defaultCenter={this.props.center}
+                      defaultZoom={this.props.zoom}
+                    >
+
+                    </GoogleMapReact>
+                  </div>
                   <div className="social-links">
                     <div style={{flex: 1}}>
                       <div style={{color: '#FFFFFF', textTransform: 'uppercase', fontSize: 14, fontWeight: 600}}>Address</div>

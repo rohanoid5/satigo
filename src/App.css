@@ -478,6 +478,7 @@ a:hover {
 	font-size: 12px;
 	margin-top: 10px;
 	color: #FFFFFF;
+	padding: 0px 15px;
 }
 
 .section_copyright {
@@ -666,11 +667,24 @@ a:hover {
 	font-weight: bold;
 }
 
-.tweet-contet {
+.tweet-content {
 	padding: 15px;
 }
 
 @media (max-width: 400px) {
+	.title {
+		font-size: 30px;
+	}
+
+	.subtitle {
+		font-size: 20px;
+		top: 30%;
+	}
+
+	.subsubtitle {
+		font-size: 12px;
+	}
+
 	.tweet-icon {
 		margin-right: 5px;
     height: 48px;
@@ -680,7 +694,11 @@ a:hover {
 		font-size: 25px;
 	}
 
-	.tweet-contet {
+	.tweet-content {
 		padding: 5px;
+	}
+
+	.tweet-info {
+		padding: 0px 5px;
 	}
 }
