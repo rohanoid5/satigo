@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import GoogleMapReact from 'google-map-react';
 
@@ -34,7 +33,11 @@ class App extends Component {
     this.showSlides(slideIndex);
     this.interval = setInterval(() => {
       this.plusSlides(1);
-    }, 4000);
+      if(this.state.candidateIndex == 3) this.setState({candidateIndex: 0})
+      else this.setState({candidateIndex: this.state.candidateIndex + 1})
+      if(this.state.clientIndex == 3) this.setState({ clientIndex: 0})
+      else this.setState({clientIndex: this.state.clientIndex + 1})
+    }, 3000);
   }
 
   componentWillUnmount() {
@@ -51,7 +54,6 @@ class App extends Component {
 
   showSlides(n) {
     let i;
-    let slides = this.state.sliderImageStyle;
     if (n > 3) {
       slideIndex = 1;
     }
@@ -73,13 +75,6 @@ class App extends Component {
   }
 
   render() {
-    const settings = {
-      dots: false,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    };
     return (
       <div className="App">
         <nav className="navbar navbar-inverse navbar-fixed-top navbar-white" id="nav">
@@ -170,12 +165,14 @@ class App extends Component {
         </section>
         <section className="section">
           <div className="companies">
-            <img src="vodafone.jpg" className="company-icons"/>
-            <img src="cts.png" className="company-icons"/>
-            <img src="vodafone.jpg" className="company-icons"/>
-            <img src="cts.png" className="company-icons"/>
-            <img src="vodafone.jpg" className="company-icons"/>
-            <img src="cts.png" className="company-icons"/>
+            <div className="companies">
+              <img src="vodafone.jpg" className="company-icons"/>
+              <img src="cts.png" className="company-icons"/>
+              <img src="vodafone.jpg" className="company-icons"/>
+              <img src="cts.png" className="company-icons"/>
+              <img src="vodafone.jpg" className="company-icons"/>
+              <img src="cts.png" className="company-icons"/>
+            </div>
           </div>
         </section>
         <section className="section-title" id="section_about">
@@ -203,7 +200,7 @@ class App extends Component {
               <div className="about-us-logo">
                 <div style={{display: 'flex', justifyContent: 'center', margin: 'auto', border: '3px solid #FFFFFF', width: 150, height: 150, backgroundColor: '#000000', borderRadius: '100px'}}>
                   <i className="material-icons md-64">
-                    perm_contact_calendar
+                    settings
                   </i>
                 </div>
               </div>
@@ -224,7 +221,7 @@ class App extends Component {
               <div className="about-us-logo-unordered">
                 <div style={{display: 'flex', justifyContent: 'center', margin: 'auto', border: '3px solid #FFFFFF', width: 150, height: 150, backgroundColor: '#000000', borderRadius: '100px'}}>
                   <i className="material-icons md-64">
-                    perm_contact_calendar
+                    settings_phone
                   </i>
                 </div>
               </div>
@@ -245,7 +242,7 @@ class App extends Component {
                 <div className="expertise-bubble-container">
                   <div className="expertise-bubble">
                     <div style={{fontSize: 13, textAlign: 'center', color: '#FFFFFF', fontWeight: 'bold'}}>
-                      Permanent
+
                     </div>
                   </div>
                   <div className="expertise-bubble"></div>
@@ -844,7 +841,7 @@ class App extends Component {
                   <div className="card">
                     <div className="content">
                       <div className="front">
-                        <img style={{width: '100%', height: '99%'}} src="man1.jpg" />
+                        <img style={{width: '100%', height: '99%'}} src="man3.jpg" />
                       </div>
                       <div className="back">
                         <div className="team-name">Matt Sellwood</div>
@@ -862,7 +859,7 @@ class App extends Component {
                   <div className="card">
                     <div className="content">
                       <div className="front">
-                        <img style={{width: '100%', height: '99%'}} src="man1.jpg" />
+                        <img style={{width: '100%', height: '99%'}} src="man2.jpg" />
                       </div>
                       <div className="back">
                         <div className="team-name">Matt Sellwood</div>
@@ -901,7 +898,7 @@ class App extends Component {
                   <div className="card">
                     <div className="content">
                       <div className="front">
-                        <img style={{width: '100%', height: '99%'}} src="man1.jpg" />
+                        <img style={{width: '100%', height: '99%'}} src="woman2.jpg" />
                       </div>
                       <div className="back">
                         <div className="team-name">Matt Sellwood</div>
@@ -919,7 +916,7 @@ class App extends Component {
                   <div className="card">
                     <div className="content">
                       <div className="front">
-                        <img style={{width: '100%', height: '99%'}} src="man1.jpg" />
+                        <img style={{width: '100%', height: '99%'}} src="woman1.jpg" />
                       </div>
                       <div className="back">
                         <div className="team-name">Matt Sellwood</div>
@@ -937,7 +934,7 @@ class App extends Component {
                   <div className="card">
                     <div className="content">
                       <div className="front">
-                        <img style={{width: '100%', height: '99%'}} src="man1.jpg" />
+                        <img style={{width: '100%', height: '99%'}} src="man2.jpg" />
                       </div>
                       <div className="back">
                         <div className="team-name">Matt Sellwood</div>

@@ -4444,6 +4444,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 .navbar-inverse .navbar-nav>li>a,
 .navbar-inverse .navbar-text {
 	color: #9b9d9f;
+  font-weight: bold;
 }
 
 .navbar-inverse .navbar-nav>.active>a,
@@ -4454,7 +4455,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 
 .navbar-inverse .navbar-nav>li>a:focus,
 .navbar-inverse .navbar-nav>li>a:hover {
-	color: #c0392b;
+	color: #080808;
 }
 
 .navbar-inverse .navbar-nav>.disabled>a,

@@ -126,7 +126,7 @@ a:hover {
 }
 
 .companies {
-	background-color: #F3F3F3;
+	background-color: #ffffff;
 	padding: 24px 0px;
 }
 
@@ -233,7 +233,6 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	padding: 40px 0px;
-	display: none;
 }
 
 .expertise-bubble {
@@ -638,6 +637,15 @@ a:hover {
 }
 
 @media (max-width: 576px) {
+	.expertise-bubble-container {
+		padding: 25px 0px;
+	}
+
+	.expertise-bubble {
+		width: 80px;
+	   height: 80px;
+	}
+
 	.content {
 	  width: 60%;
 	}
