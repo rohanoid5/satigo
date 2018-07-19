@@ -634,6 +634,10 @@ a:hover {
 	.flex-btn-wrapper {
 		flex-direction: column;
 	}
+
+	.flex-btn-wrapper a:first-child {
+		margin-right: 0px;
+	}
 }
 
 @media (max-width: 576px) {
