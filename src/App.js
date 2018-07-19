@@ -83,8 +83,8 @@ class App extends Component {
                 <span className="icon-bar"></span>
               </button>
               <a className="navbar-brand" href="#">
-        				<img src="images_logo.png" width="80" alt="Satigo"/>
-        			</a>
+                <img src="images_logo.png" width="80" alt="Satigo"/>
+              </a>
             </div>
             <div className="collapse navbar-collapse" id="navbar_main">
               <ul id="navbar-txt" className="nav navbar-nav navbar-right">
@@ -797,17 +797,16 @@ class App extends Component {
                   <div className="card">
                     <div className="content card-content">
                       <div className="front">
-                        <img style={{width: '100%', height: '72%'}} src="man1.jpg" />
-                        <div className="team-name">Matt Sellwood</div>
-                        <div className="team-job">Managing Director</div>
-                        <div className="team-info">
-                          <img src="linkedin-48.png" width="16px" height="16px"/>
-                          <img src="facebook-48.png" width="16px" height="16px"/>
-                          <span style={{fontSize: 10, color: '#FFFFFF'}}>233 558 999</span>
-                        </div>
+                        <img style={{width: '100%', height: '99%'}} src="man1.jpg" />
                       </div>
                       <div className="back" style={{fontSize: 22}}>
-                        Duis aute irure dolor
+                        <div className="team-name">Matt Sellwood</div>
+                        <div className="team-job">Managing Director</div>
+                        <div className="team-info">
+                          <a href=""><img src="linkedin-48.png" width="16px" height="16px"/></a>
+                          <a href=""><img src="facebook-48.png" width="16px" height="16px"/></a>
+                          <a href=""><span style={{fontSize: 10, color: '#FFFFFF'}}>233 558 999</span></a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -816,17 +815,16 @@ class App extends Component {
                   <div className="card">
                     <div className="content">
                       <div className="front">
-                        <img style={{width: '100%', height: '72%'}} src="man1.jpg" />
+                        <img style={{width: '100%', height: '99%'}} src="man1.jpg" />
+                      </div>
+                      <div className="back">
                         <div className="team-name">Matt Sellwood</div>
                         <div className="team-job">Managing Director</div>
                         <div className="team-info">
-                          <img src="linkedin-48.png" width="16px" height="16px"/>
-                          <img src="facebook-48.png" width="16px" height="16px"/>
-                          <span style={{fontSize: 10, color: '#FFFFFF'}}>233 558 999</span>
+                          <a href=""><img src="linkedin-48.png" width="16px" height="16px"/></a>
+                          <a href=""><img src="facebook-48.png" width="16px" height="16px"/></a>
+                          <a href=""><span style={{fontSize: 10, color: '#FFFFFF'}}>233 558 999</span></a>
                         </div>
-                      </div>
-                      <div className="back">
-                        Back!
                       </div>
                     </div>
                   </div>
@@ -835,17 +833,16 @@ class App extends Component {
                   <div className="card">
                     <div className="content">
                       <div className="front">
-                        <img style={{width: '100%', height: '72%'}} src="man1.jpg" />
+                        <img style={{width: '100%', height: '99%'}} src="man1.jpg" />
+                      </div>
+                      <div className="back">
                         <div className="team-name">Matt Sellwood</div>
                         <div className="team-job">Managing Director</div>
                         <div className="team-info">
-                          <img src="linkedin-48.png" width="16px" height="16px"/>
-                          <img src="facebook-48.png" width="16px" height="16px"/>
-                          <span style={{fontSize: 10, color: '#FFFFFF'}}>233 558 999</span>
+                          <a href=""><img src="linkedin-48.png" width="16px" height="16px"/></a>
+                          <a href=""><img src="facebook-48.png" width="16px" height="16px"/></a>
+                          <a href=""><span style={{fontSize: 10, color: '#FFFFFF'}}>233 558 999</span></a>
                         </div>
-                      </div>
-                      <div className="back">
-                        Back!
                       </div>
                     </div>
                   </div>
@@ -854,17 +851,16 @@ class App extends Component {
                   <div className="card">
                     <div className="content">
                       <div className="front">
-                        <img style={{width: '100%', height: '72%'}} src="man1.jpg" />
+                        <img style={{width: '100%', height: '99%'}} src="man1.jpg" />
+                      </div>
+                      <div className="back">
                         <div className="team-name">Matt Sellwood</div>
                         <div className="team-job">Managing Director</div>
                         <div className="team-info">
-                          <img src="linkedin-48.png" width="16px" height="16px"/>
-                          <img src="facebook-48.png" width="16px" height="16px"/>
-                          <span style={{fontSize: 10, color: '#FFFFFF'}}>233 558 999</span>
+                          <a href=""><img src="linkedin-48.png" width="16px" height="16px"/></a>
+                          <a href=""><img src="facebook-48.png" width="16px" height="16px"/></a>
+                          <a href=""><span style={{fontSize: 10, color: '#FFFFFF'}}>233 558 999</span></a>
                         </div>
-                      </div>
-                      <div className="back">
-                        Back!
                       </div>
                     </div>
                   </div>
@@ -876,17 +872,16 @@ class App extends Component {
                   <div className="card">
                     <div className="content">
                       <div className="front">
-                        <img style={{width: '100%', height: '72%'}} src="man1.jpg" />
+                        <img style={{width: '100%', height: '99%'}} src="man1.jpg" />
+                      </div>
+                      <div className="back">
                         <div className="team-name">Matt Sellwood</div>
                         <div className="team-job">Managing Director</div>
                         <div className="team-info">
-                          <img src="linkedin-48.png" width="16px" height="16px"/>
-                          <img src="facebook-48.png" width="16px" height="16px"/>
-                          <span style={{fontSize: 10, color: '#FFFFFF'}}>233 558 999</span>
+                          <a href=""><img src="linkedin-48.png" width="16px" height="16px"/></a>
+                          <a href=""><img src="facebook-48.png" width="16px" height="16px"/></a>
+                          <a href=""><span style={{fontSize: 10, color: '#FFFFFF'}}>233 558 999</span></a>
                         </div>
-                      </div>
-                      <div className="back">
-                        Back!
                       </div>
                     </div>
                   </div>
@@ -895,17 +890,16 @@ class App extends Component {
                   <div className="card">
                     <div className="content">
                       <div className="front">
-                        <img style={{width: '100%', height: '72%'}} src="man1.jpg" />
+                        <img style={{width: '100%', height: '99%'}} src="man1.jpg" />
+                      </div>
+                      <div className="back">
                         <div className="team-name">Matt Sellwood</div>
                         <div className="team-job">Managing Director</div>
                         <div className="team-info">
-                          <img src="linkedin-48.png" width="16px" height="16px"/>
-                          <img src="facebook-48.png" width="16px" height="16px"/>
-                          <span style={{fontSize: 10, color: '#FFFFFF'}}>233 558 999</span>
+                          <a href=""><img src="linkedin-48.png" width="16px" height="16px"/></a>
+                          <a href=""><img src="facebook-48.png" width="16px" height="16px"/></a>
+                          <a href=""><span style={{fontSize: 10, color: '#FFFFFF'}}>233 558 999</span></a>
                         </div>
-                      </div>
-                      <div className="back">
-                        Back!
                       </div>
                     </div>
                   </div>
@@ -914,17 +908,16 @@ class App extends Component {
                   <div className="card">
                     <div className="content">
                       <div className="front">
-                        <img style={{width: '100%', height: '72%'}} src="man1.jpg" />
+                        <img style={{width: '100%', height: '99%'}} src="man1.jpg" />
+                      </div>
+                      <div className="back">
                         <div className="team-name">Matt Sellwood</div>
                         <div className="team-job">Managing Director</div>
                         <div className="team-info">
-                          <img src="linkedin-48.png" width="16px" height="16px"/>
-                          <img src="facebook-48.png" width="16px" height="16px"/>
-                          <span style={{fontSize: 10, color: '#FFFFFF'}}>233 558 999</span>
+                          <a href=""><img src="linkedin-48.png" width="16px" height="16px"/></a>
+                          <a href=""><img src="facebook-48.png" width="16px" height="16px"/></a>
+                          <a href=""><span style={{fontSize: 10, color: '#FFFFFF'}}>233 558 999</span></a>
                         </div>
-                      </div>
-                      <div className="back">
-                        Back!
                       </div>
                     </div>
                   </div>
@@ -933,17 +926,16 @@ class App extends Component {
                   <div className="card">
                     <div className="content">
                       <div className="front">
-                        <img style={{width: '100%', height: '72%'}} src="man1.jpg" />
+                        <img style={{width: '100%', height: '99%'}} src="man1.jpg" />
+                      </div>
+                      <div className="back">
                         <div className="team-name">Matt Sellwood</div>
                         <div className="team-job">Managing Director</div>
                         <div className="team-info">
-                          <img src="linkedin-48.png" width="16px" height="16px"/>
-                          <img src="facebook-48.png" width="16px" height="16px"/>
-                          <span style={{fontSize: 10, color: '#FFFFFF'}}>233 558 999</span>
+                          <a href=""><img src="linkedin-48.png" width="16px" height="16px"/></a>
+                          <a href=""><img src="facebook-48.png" width="16px" height="16px"/></a>
+                          <a href=""><span style={{fontSize: 10, color: '#FFFFFF'}}>233 558 999</span></a>
                         </div>
-                      </div>
-                      <div className="back">
-                        Back!
                       </div>
                     </div>
                   </div>
@@ -1130,18 +1122,18 @@ class App extends Component {
         <footer className="section">
           <div className="section_footer">
             <div className="container tweet-flex">
-              <img src="twitter-64.png" style={{marginRight: '10px', height: 64}}/>
+              <img src="twitter-64.png" className="tweet-icon"/>
               <span className="triangle-left"></span>
               <div className="tweet-box">
                 <div style={{display: 'flex', justifyContent: 'space-between'}}>
-                  <span style={{fontSize: 40, color: '#FFFFFF', fontWeight: 'bold'}}>&#8220;</span>
-                  <div style={{padding: '15px'}}>
+                  <span className="tweet-comma">&#8220;</span>
+                  <div className="tweet-content">
                     <div className="title-white tweet-content">
                       Please send your cv at veronica.haldi@satigo.com to be included into our database and considered for any relevant IT roles we have.
                     </div>
                     <div className="tweet-info">Time ago <span style={{color: '#4169E1'}}>130 days</span> via <span style={{color: '#4169E1'}}>Twitter</span></div>
                   </div>
-                  <span style={{fontSize: 40, color: '#FFFFFF', fontWeight: 'bold'}}>&#8221;</span>
+                  <span className="tweet-comma">&#8221;</span>
                 </div>
               </div>
             </div>
