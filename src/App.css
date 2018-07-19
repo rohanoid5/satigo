@@ -46,7 +46,7 @@ a:hover {
 /* Position the "next button" to the right */
 .next {
   right: 0;
-	margin-right: 50px;
+	margin-right: 100px;
 }
 
 .prev {
@@ -622,7 +622,20 @@ a:hover {
 	font-size: 16px;
 }
 
+.triangle-bottom {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 8px 0 8px;
+  border-color: #FFFFFF transparent transparent transparent;
+}
+
 @media (max-width: 768px) {
+	.next {
+		margin-right: 15px;
+	}
+
 	.client-testimony {
 		padding: 0px 20px;
 	}

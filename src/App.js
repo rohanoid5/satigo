@@ -150,6 +150,11 @@ class App extends Component {
               Browse jobs
             </a>
           </div>
+          <div style={{display: 'none', justifyContent: 'center'}}>
+            <div style={{width: 30, height: 15, backgroundColor: '#414141', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+              <div className="triangle-bottom"></div>
+            </div>
+          </div>
         </section>
         <section className="section" style={{backgroundColor: '#414141'}}>
           <div className="container">
