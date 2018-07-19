@@ -1086,7 +1086,7 @@ class App extends Component {
                     </a>
                   </form>
                 </div>
-                <div className="col-sm-6 col-md-5 col-md-offset-1">
+                <div className="col-sm-6 col-md-4 col-md-offset-2">
                   <div style={{ height: '280px', width: '100%', marginBottom: 16}}>
                     <GoogleMapReact
                       bootstrapURLKeys={{ key: 'AIzaSyAQFYDgsFKjFbCB5fTuwAn4nnfvb1fqdVw'}}
