@@ -470,10 +470,6 @@ a:hover {
 	padding: 12px
 }
 
-.tweet-content {
-	font-size: 16px;
-}
-
 .tweet-info {
 	font-size: 12px;
 	margin-top: 10px;
@@ -610,6 +606,23 @@ a:hover {
 	font-size: 128px;
 }
 
+
+.tweet-icon {
+	margin-right: 10px;
+  height: 64px;
+}
+
+.tweet-comma {
+	font-size: 70px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+}
+
+.tweet-content {
+	padding: 15px;
+	font-size: 16px;
+}
+
 @media (max-width: 768px) {
 	.client-testimony {
 		padding: 0px 20px;
@@ -618,11 +631,19 @@ a:hover {
 	.content {
 	  width: 60%;
 	}
+
+	.flex-btn-wrapper {
+		flex-direction: column;
+	}
 }
 
 @media (max-width: 576px) {
 	.content {
 	  width: 60%;
+	}
+
+	.tweet-comma {
+		font-size: 30px;
 	}
 
 	.client-testimony {
@@ -650,28 +671,9 @@ a:hover {
 	.about-us-paragraph {
 		order: 1;
 	}
-
-	.flex-btn-wrapper {
-		flex-direction: column;
-	}
 }
 
-.tweet-icon {
-	margin-right: 10px;
-  height: 64px;
-}
-
-.tweet-comma {
-	font-size: 40px;
-	color: rgb(255, 255, 255);
-	font-weight: bold;
-}
-
-.tweet-content {
-	padding: 15px;
-}
-
-@media (max-width: 400px) {
+@media (max-width: 410px) {
 	.title {
 		font-size: 30px;
 	}
@@ -690,15 +692,13 @@ a:hover {
     height: 48px;
 	}
 
-	.tweet-comma {
-		font-size: 25px;
-	}
-
 	.tweet-content {
 		padding: 5px;
+		font-size: 12px;
 	}
 
 	.tweet-info {
 		padding: 0px 5px;
+		font-size: 10px;
 	}
 }

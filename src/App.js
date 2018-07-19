@@ -1066,7 +1066,7 @@ class App extends Component {
           <div style={{	padding: '48px 0px'}} >
             <div className="container">
               <div className="row">
-                <div className="col-md-6">
+                <div className="col-sm-6">
                   <form>
                     <div className="form-group">
                       <label style={{color: '#FFFFFF', textTransform: 'uppercase', fontSize: 13}}>Your name</label>
@@ -1089,7 +1089,7 @@ class App extends Component {
                     </a>
                   </form>
                 </div>
-                <div className="col-sm-offset-2 col-sm-4">
+                <div className="col-sm-6 col-md-5 col-md-offset-1">
                   <div style={{ height: '280px', width: '100%', marginBottom: 16}}>
                     <GoogleMapReact
                       bootstrapURLKeys={{ key: 'AIzaSyC4R6AN7SmujjPUIGKdyao2Kqitzr1kiRg'}}
